@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     public void Login(View view){
         final String Nic= NIC.getText().toString();
         final String password= passwordfield.getText().toString();
-        progressDialog.setMessage("Checking szdsadads");
+        progressDialog.setMessage("Checking szdsadadsmnnnm");
         progressDialog.show();
         StringRequest stringRequest=new StringRequest(Request.Method.POST,
                 Constants.ROOT_URL,
